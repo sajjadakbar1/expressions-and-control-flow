@@ -13,15 +13,5 @@ print(int(b))
 print(float(c))
 
 martial_status = input("Are you married? ")
-while True:
-    spice = input("Really! Are you married? Yes or No? ")
-if spice == ("yes"): print
-    # if spice not in ["yes","no"]:
-    #     print("Please type yes or no")
-    #     continue
-    # else:
-    #     break
-
-    print(martial_status+" "+ "You are married.")
-else:
-    print(martial_status+" "+ "You are unmarried.")
+if martial_status == ("yes"): print("You are married.")
+else: print(martial_status+" "+ "You are unmarried.")

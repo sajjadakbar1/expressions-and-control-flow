@@ -20,7 +20,7 @@ print(d)
 
 e = 8
 # please cube of e's value
-e = e * e * e * e
+e = e ** 3
 print(e)
 
 f1 = 123

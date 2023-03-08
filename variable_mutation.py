@@ -26,15 +26,15 @@ print(e)
 f1 = 123
 f2 = 345
 # tell if f1 is bigger than f2 (pras a boolean)
-if f1 > f2: print("Value of f1 is bigger than f2")
-else: print("Value of f2 is bigger than f1")
+if f1 > f2: print("f1 > f2")
+else: print("f2 > f1")
 
 g1 = 350
 g2 = 200
 # tell if the double of g2 is bigger than g1 (pras a boolean)
 g2 = g2 + g2
-if g2 > g1: print("Value of g2 is bigger than g1")
-else: print("Value of g1 is bigger than g2")
+if g2 > g1: print("g2 > g1")
+else: print("g2 > g1")
 
 h = 1357988018575474
 # tell if 11 is a divisor of h (pras a boolean)
@@ -51,3 +51,8 @@ i2 = 3
 
 j = 1521
 # tell if j is divisible by 3 or 5 (pras a boolean)
+my_list = [1521]
+
+result = list (filter (lambda x: (x % 3 or 5 == 0), my_list))
+
+print("Number that is divisible by 3 OR 5: ", result)

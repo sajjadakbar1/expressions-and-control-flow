@@ -38,8 +38,7 @@ d = 8
 time = 120
 output3 = ""
 # if d is dividable by 4
-# and time is not mor
-e than 200
+# and time is not more than 200
 # set output3 to "check"
 # if time is more than 200
 # set output3 to "Time out"

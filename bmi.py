@@ -5,5 +5,5 @@ heightInM = 1.78
 
 # Input from the users  
 weight = float(input("Enter you Weight: "));
-height = float(input("Enter you Height: "));
+height = float(input("Enter you Height in meters: "));
 print("Your Body Mass Index (BMI) is: ", round(weight / (height * height), 2))

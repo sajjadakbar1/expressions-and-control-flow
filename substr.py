@@ -5,12 +5,12 @@
 # def substr(str, keyword):
 #     return -1
 
-# #  Example
-# # should print: `17`
-# print(substr("This is what I'm searching in", "searching"))
+# Example
+# should print: `17`
+# print(substr("this is what I'm searching in", "searching"))
 
-# # should print: `-1`
-# print(substr("This is what I'm searching in", "not"))
+# should print: `-1`
+# print(substr("this is what I'm searching in", "not"))
 
 def substr(str, keyword):
     if str == keyword:

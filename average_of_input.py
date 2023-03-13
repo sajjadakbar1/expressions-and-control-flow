@@ -6,20 +6,33 @@
 # Sum: 22, Average: 4.4
 
 
-lst = []
-n = int(input("Enter total numbers first, than enter numbers one by one by pressing enter: "))
+# lst = []
+# n = int(input("Enter total numbers first, than enter numbers one by one by pressing enter: "))
   
-for i in range(0, n):
-    ele = int(input())
+# for i in range(0, n):
+#     ele = int(input())
   
-    lst.append(ele)
-Sum = str(sum(lst))
+#     lst.append(ele)
+# Sum = str(sum(lst))
 
-print("Your entered numbers: "+str(lst))
-print('\n'"Sum of your entered numbers are: "+Sum)
+# print("Your entered numbers: "+str(lst))
+# print('\n'"Sum of your entered numbers are: "+Sum)
 
-def Average(lst):
-    return sum(lst) / len(lst)
+# def Average(lst):
+#     return sum(lst) / len(lst)
 
-average = Average(lst)
-print("Average of your entered numbers is: ", round(average, 2))
+# average = Average(lst)
+# print("Average of your entered numbers is: ", round(average, 2))
+
+
+a = int(input("Enter total numbers: "))
+list = []
+
+for i in range(1, a + 1):
+    number = int(input("Input " + str(i) + " number: "))
+    list.append(number)
+
+print(list)
+
+avg = sum(list) / a
+print('Average of your numbers are = ',avg)
